@@ -1,24 +1,15 @@
-# README
+# Rails Hello Docker
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+> Rails app with sqlite database and Docker
 
-Things you may want to cover:
+## How to run
 
-* Ruby version
+```
+docker-compose up
+```
 
-* System dependencies
+or build image from scratch
 
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```
+docker-compose up --build
+```
